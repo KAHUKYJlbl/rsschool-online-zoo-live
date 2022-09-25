@@ -1,0 +1,55 @@
+:root {
+  --letter-black: #333B41;
+  --black: #000000;
+  --white: #FFFFFF;
+  --green: #4B9200;
+  --yellow: #FFEE2E;
+  --red: #D31414;
+  --grey: #767474;
+  --middle-grey: #BDBDBD;
+  --grey-smoky: #ABABAB;
+  --light-grey: #F1F3F2;
+  --glass-white: rgba(253, 253, 255, 0.52);
+  --pink-gradient: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+  --orange-gradient: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+html {
+  height: 100%;
+}
+
+.page {
+  margin: 0;
+  padding: 0;
+  min-width: 1600px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+
+  font-family: "Roboto", "Verdana", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--letter-black);
+  background-color: var(--white);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  nav-index: -1;
+}
+
+.center-wrap {
+  margin: 0 auto;
+  width: 940px;
+}
