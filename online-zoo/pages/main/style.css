@@ -89,7 +89,7 @@ html {
   display: flex;
 }
 
-.site-nav-item_current {
+>.site-nav-item.site-nav-item_current {
   color: var(--orange);
 }
 
@@ -99,7 +99,7 @@ html {
 }
 
 .site-nav-item a {
-  color: white;
+  color: inherit;
   text-decoration: none;
 }
 
