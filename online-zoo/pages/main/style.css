@@ -259,33 +259,37 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
- }
+}
 
- .footer-nav {
+.footer-nav {
   margin: 0;
 
   list-style: none;
- }
+}
 
- .footer-nav-item a {
+.footer-nav-item a {
   color: var(--white);
   text-decoration: none;
- }
+}
 
- .footer-nav-item_current a {
+.footer-nav-item_current a {
   color: var(--orange);
- }
+}
 
- .page-footer li:not(.footer-nav-item_current) a:hover {
+.page-footer li:not(.footer-nav-item_current) a:hover {
   text-decoration: underline;
- }
+}
 
- .page-footer li:not(.footer-nav-item_current) a:focus-visible {
+.page-footer li:not(.footer-nav-item_current) a:focus-visible {
   color: var(--grey);
- }
+}
 
- .footer-right-flex {
+.footer-right-flex {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
- }
+}
+
+.footer-designed {
+  align-self: flex-end;
+}
