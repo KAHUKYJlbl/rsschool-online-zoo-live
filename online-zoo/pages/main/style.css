@@ -115,7 +115,7 @@ html {
 }
 
 .page-header a:focus-visible {
-  opacity: 0.3;
+  color: var(--grey);
 }
 
 .header-designed {
@@ -243,5 +243,5 @@ html {
  }
 
  .footer-nav-item a:focus-visible {
-  opacity: 0.3;
+  color: var(--grey);
  }
