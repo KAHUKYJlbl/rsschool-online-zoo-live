@@ -155,7 +155,29 @@ html {
   color: var(--yellow);
 }
 
+.watch-button {
+  position: absolute;
+  top: 546px;
+  right: 319px;
+  display: block;
+  height: 54px;
+  width: 298px;
+  margin-top: 44px;
+  margin-bottom: 44px;
+
+  color: var(--white);
+  text-decoration: none;
+  text-align: center;
+  line-height: 54px;
+  text-transform: uppercase;
+
+  background-color: var(--orange);
+  border-radius: 25px;
+}
+
 .hat-grid {
+  margin-top: 140px;
+  margin-bottom: 180px;
   display: grid;
   grid-template-columns: 7fr 5fr;
 }
@@ -163,8 +185,37 @@ html {
 .the-hat {
   color: var(--letter-black);
 
-  background-image: url(../../assets/images/bg-images/main-bush-top.png);
+  background-image: url('../../assets/images/bg-images/main-bush-top.png');
   background-position: 100% 50%;
+}
+
+.choose {
+  background-image: url('../../assets/images/bg-images/main-bush-middle-l.png'), url('../../assets/images/bg-images/main-bush-middle.png');
+  background-position: left bottom, right bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.choose-flex {
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.choose-button {
+  display: block;
+  height: 54px;
+  width: 298px;
+  margin-top: 44px;
+  margin-bottom: 44px;
+
+  color: var(--white);
+  text-decoration: none;
+  text-align: center;
+  line-height: 54px;
+  text-transform: uppercase;
+
+  background-color: var(--orange);
+  border-radius: 25px;
 }
 
 .page-footer {
