@@ -89,7 +89,7 @@ html {
   display: flex;
 }
 
-.site-nav-item.site-nav-item_current {
+.site-nav .site-nav-item_current {
   color: var(--orange);
 }
 
