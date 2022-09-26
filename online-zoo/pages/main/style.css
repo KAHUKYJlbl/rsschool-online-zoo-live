@@ -90,14 +90,17 @@ html {
 }
 
 .site-nav-item_current {
-  background: var(--orange);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--orange);
 }
 
 .site-nav-item {
   margin-right: 17px;
   margin-left: 17px;
+}
+
+.site-nav-item a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .header-designed {
