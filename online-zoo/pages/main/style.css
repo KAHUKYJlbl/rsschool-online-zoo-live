@@ -110,11 +110,11 @@ html {
   text-align: center;
 }
 
-.page-header a:hover {
+.page-header li:not(.site-nav-item_current) a:hover {
   text-decoration: underline;
 }
 
-.page-header a:focus-visible {
+.page-header li:not(.site-nav-item_current) a:focus-visible {
   color: var(--grey);
 }
 
@@ -254,10 +254,16 @@ html {
   color: var(--orange);
  }
 
- .footer-nav-item a:hover {
+ .footer-nav-item li:not(.footer-nav-item_current) a:hover {
   text-decoration: underline;
  }
 
- .footer-nav-item a:focus-visible {
+ .footer-nav-item li:not(.footer-nav-item_current) a:focus-visible {
   color: var(--grey);
+ }
+
+ .footer-right-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
  }
