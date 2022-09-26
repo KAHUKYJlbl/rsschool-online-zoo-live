@@ -227,6 +227,14 @@ html {
   width: 100%;
 }
 
+.footer-social-flex a:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-social-flex a:focus-visible {
+  background-color: rgba(250, 0, 0, 0.4);
+}
+
 .social-facebook {
   background-image: url(../../assets/icons/facebook-text.svg);
   background-repeat: no-repeat;
