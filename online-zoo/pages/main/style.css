@@ -245,6 +245,12 @@ html {
   align-items: flex-end;
  }
 
+ .footer-nav {
+  margin: 0;
+  
+  list-style: none;
+ }
+
  .footer-nav-item a {
   color: var(--white);
   text-decoration: none;
