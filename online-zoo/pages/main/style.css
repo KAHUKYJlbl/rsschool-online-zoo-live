@@ -197,8 +197,12 @@ html {
 }
 
 .choose-flex {
+  margin: 0;
+  list-style: none;
+
   margin-bottom: 80px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
