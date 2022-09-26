@@ -194,6 +194,7 @@ html {
 
   text-align: center;
   line-height: 54px;
+  text-transform: uppercase;
 
   background-color: var(--orange);
   border-radius: 5px;
@@ -206,11 +207,6 @@ html {
 .donate-button:focus-visible {
   background-color: var(--grey);
 }
-
-/* .donate-button a {
-  line-height: 54px;
-  text-transform: uppercase;
-} */
 
 .footer-social-flex {
   display: flex;
