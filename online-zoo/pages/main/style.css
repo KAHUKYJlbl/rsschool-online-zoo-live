@@ -247,7 +247,7 @@ html {
 
  .footer-nav {
   margin: 0;
-  
+
   list-style: none;
  }
 
@@ -260,11 +260,11 @@ html {
   color: var(--orange);
  }
 
- .footer-nav-item li:not(.footer-nav-item_current) a:hover {
+ .footer-nav li:not(.footer-nav-item_current) a:hover {
   text-decoration: underline;
  }
 
- .footer-nav-item li:not(.footer-nav-item_current) a:focus-visible {
+ .footer-nav li:not(.footer-nav-item_current) a:focus-visible {
   color: var(--grey);
  }
 
