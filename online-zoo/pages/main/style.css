@@ -166,7 +166,7 @@ html {
 
 .footer-grid-wrap {
   display: grid;
-  grid-template-columns: 1fr*3;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .footer-left-flex {
@@ -188,6 +188,8 @@ html {
   width: 298px;
   margin-top: 44px;
   margin-bottom: 44px;
+
+  text-align: center;
 
   background-color: var(--orange);
   border-radius: 5px;
