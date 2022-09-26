@@ -187,6 +187,7 @@ html {
 
   background-image: url('../../assets/images/bg-images/main-bush-top.png');
   background-position: 100% 50%;
+  background-repeat: no-repeat;
 }
 
 .choose {
