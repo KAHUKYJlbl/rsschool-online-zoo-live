@@ -270,11 +270,11 @@ html {
   color: var(--orange);
  }
 
- .footer-nav li:not(.footer-nav-item_current) a:hover {
+ .page-footer li:not(.footer-nav-item_current) a:hover {
   text-decoration: underline;
  }
 
- .footer-nav li:not(.footer-nav-item_current) a:focus-visible {
+ .page-footer li:not(.footer-nav-item_current) a:focus-visible {
   color: var(--grey);
  }
 
