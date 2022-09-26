@@ -210,6 +210,12 @@ html {
   width: 168px;
 }
 
+.footer-social-flex a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 .social-facebook {
   background-image: url(../../assets/icons/facebook-text.svg);
   background-repeat: no-repeat;
@@ -236,8 +242,12 @@ html {
   align-content: flex-end;
  }
 
- .footer-nav-item_current {
+ .footer-nav .footer-nav-item_current {
   color: var(--orange);
+ }
+
+ .footer-nav-item a {
+  color: var(--white);
  }
 
  .footer-nav-item a:hover {
