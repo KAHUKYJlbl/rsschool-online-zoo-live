@@ -192,6 +192,8 @@ html {
   margin-top: 44px;
   margin-bottom: 44px;
 
+  color: var(--white);
+  text-decoration: none;
   text-align: center;
   line-height: 54px;
   text-transform: uppercase;
