@@ -79,6 +79,12 @@ html {
   background-repeat: no-repeat;
 }
 
+.logo a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 .site-nav ul {
   height: 22px;
   margin-top: 29px;
@@ -151,6 +157,91 @@ html {
 
 .page-footer {
   height: 443px;
+  padding-top: 17px;
+
+  color: var(--white);
 
   background-color: var(--black);
 }
+
+.footer-grid-wrap {
+  display: grid;
+  grid-template-columns: 1fr*3;
+}
+
+.footer-left-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 0;
+
+  background-image: url(../../assets/icons/logo.svg);
+  background-repeat: no-repeat;
+}
+
+.donate-button {
+  height: 54px;
+  width: 298px;
+  margin-top: 44px;
+  margin-bottom: 44px;
+
+  background-color: var(--orange);
+  border-radius: 5px;
+}
+
+.donate-button a {
+  line-height: 54px;
+  text-transform: uppercase;
+}
+
+.footer-social-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-social-flex div {
+  height: 26px;
+  width: 168px;
+}
+
+.social-facebook {
+  background-image: url(../../assets/icons/facebook-text.svg);
+  background-repeat: no-repeat;
+}
+
+.social-twitter {
+  background-image: url(../../assets/icons/twitter-text.svg);
+  background-repeat: no-repeat;
+}
+
+.social-instagram {
+  background-image: url(../../assets/icons/instagram-text.svg);
+  background-repeat: no-repeat;
+}
+
+.social-youtube {
+  background-image: url(../../assets/icons/youtube-text.svg);
+  background-repeat: no-repeat;
+}
+
+.footer-center-flex {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+ }
+
+ .footer-nav-item_current {
+  color: var(--orange);
+ }
+
+ .footer-nav-item a:hover {
+  text-decoration: underline;
+ }
+
+ .footer-nav-item a:focus-visible {
+  opacity: 0.3;
+ }
