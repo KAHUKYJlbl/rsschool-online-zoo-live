@@ -175,19 +175,19 @@ html {
   border-radius: 25px;
 }
 
-.hat-grid {
-  margin-top: 140px;
-  margin-bottom: 180px;
-  display: grid;
-  grid-template-columns: 7fr 5fr;
-}
-
 .the-hat {
   color: var(--letter-black);
 
   background-image: url('../../assets/images/bg-images/main-bush-top.png');
   background-position: 100% 50%;
   background-repeat: no-repeat;
+}
+
+.hat-grid {
+  margin-top: 140px;
+  margin-bottom: 180px;
+  display: grid;
+  grid-template-columns: 7fr 5fr;
 }
 
 .choose {
